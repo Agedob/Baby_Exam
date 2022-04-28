@@ -1,0 +1,20 @@
+*{
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #060;
+}
+#container{
+    width: 1000px;
+    margin: 30px;
+    background-color: #666;
+}
+#phone_number{
+    display: inline-block;
+}
+.hot_bar_text{
+    display: inline-block;
+}
+#sleeper{
+    border: 0px;
+}
