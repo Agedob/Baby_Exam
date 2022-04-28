@@ -32,10 +32,12 @@
 #main{
     display: flex;
     align-items: center;
+    padding: 5px;
+    margin: 5px;
 }
 .icon_box{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .icon_text{
     display: inline-block;
@@ -43,4 +45,33 @@
 .icon{
     /* padding: 50% 0%;
     height: 100%; */
+}
+#split{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+#split_text{
+    background-color: #123;
+}
+input[type='button']{
+    margin: 20px;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+}
+#footer{
+    padding: 5px;
+    margin: 5px;
+}
+#footer_head{
+    display: flex;
+    justify-content: space-between;
+}
+#footer_main{
+    display: flex;
+}
+#BTT{
+    display: flex;
+    justify-content: flex-end;
 }
