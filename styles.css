@@ -3,18 +3,43 @@
     margin: 0px;
     padding: 0px;
     border: 1px solid #060;
+    color: white;
 }
 #container{
     width: 1000px;
     margin: 30px;
-    background-color: #666;
+    background-color: rgb(59, 58, 58);
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #phone_number{
     display: inline-block;
 }
 .hot_bar_text{
     display: inline-block;
+    padding: 10px 20px;
+
 }
 #sleeper{
     border: 0px;
+}
+.inline_block{
+    display: inline-block;
+}
+#main{
+    display: flex;
+    align-items: center;
+}
+.icon_box{
+    display: flex;
+}
+.icon_text{
+    display: inline-block;
+}
+.icon{
+    padding: 50% 0%;
+    /* height: 100%; */
 }
