@@ -2,20 +2,25 @@
     vertical-align: top;
     margin: 0px;
     padding: 0px;
-    border: 1px solid #060;
+    /* border: 1px solid #060; */
     color: white;
 }
 #container{
     width: 1000px;
     margin: 30px;
-    background-color: rgb(59, 58, 58);
+    background-color: #1a1a1a;
 }
 #header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+}
+#hot_bar{
+    background-color: #555;
 }
 #phone_number{
+    padding: 10px;
     display: inline-block;
 }
 .hot_bar_text{
@@ -43,6 +48,7 @@
     display: inline-block;
 }
 .icon{
+    margin: 5px 10px;
     /* padding: 50% 0%;
     height: 100%; */
 }
@@ -50,9 +56,10 @@
     display: flex;
     padding: 5px;
     margin: 5px;
+    background-color: black;
 }
 #split_text{
-    background-color: #123;
+    /* background-color: #123; */
 }
 input[type='button']{
     margin: 20px;
@@ -71,7 +78,20 @@ input[type='button']{
 #footer_main{
     display: flex;
 }
+.port_img{
+    border: 5px solid grey;
+    margin: 5px;
+}
 #BTT{
     display: flex;
     justify-content: flex-end;
+    padding: 5px;
+    text-decoration: none;
+}
+.orange{
+    color: orange;
+}
+.ports{
+    padding: 5px;
+    margin: 5px 2px;
 }
